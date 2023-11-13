@@ -1,3 +1,4 @@
+SELECT
 1. Selezionare tutti gli studenti nati nel 1990 (160)
   
   SELECT *
@@ -55,3 +56,34 @@ laurea (286)
   SELECT * 
   FROM `teachers` 
   WHERE `phone` IS NULL;
+
+
+  
+GROUP BY
+1. Contare quanti iscritti ci sono stati ogni anno
+
+  SELECT * 
+  FROM `degrees` 
+  WHERE `level` = 'magistrale';
+
+
+2. Contare gli insegnanti che hanno l'ufficio nello stesso edificio
+
+  SELECT * 
+  FROM `degrees` 
+  WHERE `level` = 'magistrale';
+
+
+3. Calcolare la media dei voti di ogni appello d'esame
+
+  SELECT * 
+  FROM `degrees` 
+  WHERE `level` = 'magistrale';
+
+
+4. Contare quanti corsi di laurea ci sono per ogni dipartimento
+
+  SELECT * 
+  FROM `degrees` 
+  WHERE `level` = 'magistrale';
+
